@@ -1,0 +1,33 @@
+From 3/28/23 to 9/27/23 the project co-PIs (Dr. Nic Jelinski, University of Minnesota; Dr. Colby Brungard, New Mexico State University, and Dr. Sabine Grunwald, University of Florida) along with partners at ABR, Inc (Matt Macander and Sue Ives) continued to meet monthly to make progress on project objectives. During this semi-annual reporting period, this project group has expanded significantly to include:
+
+- Dave D'Amore (US Forest Service)
+- Jacquie Foss (US Forest Service)
+- Frances Biles (US Forest Service)
+- Josh Minai (IUS Department of Energy)
+- Travis Nauman (USDA-NRCS)
+- Timm Nawrocki (Alaska Center for Conservation Science)
+
+1. Notable Accomplishments During This Period (03/28/2023 - 09/27/2023):
+- Presented a poster (attached to this narrative) at the European Conference on Permafrost (EUCOP) in June 2023. 
+- Submitted an oral presentation abstract for the 2024 Pedometrics Conference.
+- Continued to enrich and update project metadata webpage: https://alaska-soil-data-bank.github.io/project-metadata/
+- Posted all meeting minutes and team messages to a web-accessible archive: https://alaska-soil-data-bank.github.io/meeting-minutes/
+- Developed a co-authorship template (https://alaska-soil-data-bank.github.io/project-metadata/co-authorship-template.html)
+- Developed a data use and sharing agreement template (https://alaska-soil-data-bank.github.io/project-metadata/data-use-and-sharing.html)
+- Developed working draft of geospatial data quality rankings, data completeness rankings, and soil classification quality rankings (https://alaska-soil-data-bank.github.io/project-metadata/deliverable1.html#data-completeness-geospatial-data-quality-and-soil-classification-quality-rankings)
+- Curated list of data sources and acquisition progress (https://github.com/orgs/alaska-soil-data-bank/projects/1)
+- Recovered > 150 pedons with full statewide distribution from Mark Clark's 2006-2012 STATSGO update project from the NRCS Wasilla office. These pedons are georeferenced and contain full morphological descriptions and classification, but were not in NASIS and only existed in hard copy form. These will make a strong contribution to this dataset.
+- Managed the transfer of ABR National Parks dataset and the ABR North Slope Shell dataset, and beginning to facilitate US Forest service pedon and plot data transfer.
+
+2. Progress on Project Metadata Documentation and Large File Storage:
+We have made GitHub and Box our central organizing space for this project and continue to improve project metadata documentation (https://alaska-soil-data-bank.github.io/project-metadata/) and large file storage and archive options for this project. All transferred data are held in Box prior to ingestion into the GEMS data platform. All large files (such as meeting recordings) live in the Box project repository and are pointed to from the GitHub repo. GitHub and Box together ensure data accessibility across all contributors and will enable us to make all project related meta-documentation fully publicly accessible by the end of the project.
+
+3. Progress on Deliverable 1: "We will acquire, curate, and centralize non-NRCS legacy data for the state of Alaska and stand up a database for continuing contributions on the G.E.M.S. platform of the University of Minnesota Supercomputing Institute. The AKSDB will result in a harmonized dataset for use in digital soil mapping in Alaska and scripts will be written to export the data into a NASIS-readable format for ingestion."
+
+Data acquisition: The team has been making significant progress on deliverable 1 by acquiring and curating large non-NRCS datasets. To date this includes 1) the ABR National Park Service dataset, 2) the ABR Shell dataset, and 3) Dr. Chien-Lu Ping's project archive. In progress acquisitions are currently the BLM-AIM dataset, three US Forest Service datasets, BP/Hilcrop and Conoco Phillips ABR datasets, and the US Department of Energy Ice Wedge Polygons datasets. The full list of target products for data acquisition can be found here: https://github.com/orgs/alaska-soil-data-bank/projects/1/views/1. Additionally, In August 2023, > 150 pedons were found in archived files in the NRCS Wasilla office that did not previously exist in NASIS - these pedons are distributed statewide and were from Mark Clark's STATSGO update initiative from 2006-2012. 
+
+Data curation and GEMS workflow: I.H. Ainuddin (UMN PhD student) has made significant progress on defining and testing the project workflow on GEMS. This workflow includes tagging raw data field with field metadata tags, which will be used for further scripting and harmonization. One of the central tenets of our workflow is that the raw data should never be modified. Therefore, our workflow involves enriching the dataset metadata rather than enforcing strict templates. This metadata enrichment includes the use of field metadata tags from a controlled vocabulary or taxonomy (which is publicly available) - tags which can later be used for harmonization by scripting. Our current controlled vocabulary/taxonomy is attached to this report. Additionally, a logic model/visual representation of the GEMS workflow is provided as a .pptx attachment to this report as well.
+
+4. Progress on Deliverable 2: "AK Statewide Predictive Soil Order/Suborder Map. We will generate digital predictive soil order and soil suborder maps of the state of Alaska at a resolution of 30m."
+
+We have begun making progress on this deliverable through two lines of effort. First, the project team has begun to generate and curate a set of 45 statewide covariates for digital soil mapping (led by Colby Brungard and Matt Macander): https://github.com/orgs/alaska-soil-data-bank/projects/3. Second, we have developed soil classification data rankings (https://alaska-soil-data-bank.github.io/project-metadata/deliverable1.html#soil-classification-quality-rankings) which will be added to all classification determinations in order to allow users to filter the end harmonized dataset based on classification confidence.
